@@ -4,7 +4,7 @@ const authorRouter = require("./routes/authorRoutes.js");
 const indexRouter = require("./routes/indexRoutes.js");
 
 app.use("/", indexRouter);
-app.use("/authorRoutes", authorRouter);
+app.use("/authors", authorRouter);
 
 
 const PORT = 3000;
